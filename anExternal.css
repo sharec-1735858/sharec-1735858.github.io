@@ -1,0 +1,93 @@
+ul {
+    list-style-type: none;
+    padding-left: 0px
+}
+body {
+    background-image: URL(marble_background.jpg);
+    background-size: cover;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+#Header h1 {
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-weight: bold;
+}
+div {
+    background-color: #FFBCBC
+}
+h3 {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-family: 'Playfair Display', serif;
+}
+p {
+    font-weight: bold;
+    color: black;
+    font-family: Arial;
+}
+p1 {
+    font-weight: bold;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+#Header {
+    border:solid 4px black;
+    border-radius: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 4px black;
+    text-align: center;
+}
+
+#FavWebsites {
+    float: left;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 4px black;
+    text-align: center;
+    padding-bottom: 8px;
+}
+#Content {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 4px black;
+    text-align: center;
+    padding: 15px;
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#Footer {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: dotted 4px black;
+    text-align: center;
+    caption-side: top;
+}
